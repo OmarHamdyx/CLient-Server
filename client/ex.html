@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <script src="not-empty.js">
+    </script>
+    <link rel="stylesheet" href="sitestyle.css">
+</head>
+<title>
+    Administrator Login
+</title>
+
+<body>
+        <form name=myForm action="customer.php" method="POST" onsubmit="return validateForm()">
+            <div class="container">
+                <h1>Welcome Administrator!</h1>
+                <hr>
+                <label for="email"><b>E-mail</b></label>
+            <input type="text" name="email"><br>
+            <label for="password"><b>Password</b></label>
+            <input type="password" name="password"><br>
+            <button type="submit" class="registerbtn" >Login</button>
+            <hr>
+        </div>
+        </form>
+        <div class="container signin">
+            <p>Are you a customer?<a href="home.html"> Register</a>.</p>
+          </div>
+        <script src="not-empty.js"></script>
+</body>
+
+</html>

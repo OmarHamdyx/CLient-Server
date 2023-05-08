@@ -1,0 +1,7 @@
+post /test1.txt 127.0.0.1 80
+get /Dir1/Dir2/file1.txt 127.0.0.1 
+get /file2.txt 127.0.0.1 80
+get /file3.txt 127.0.0.1 80
+get /Dir1/Dir2/file1.txt 127.0.0.1
+get /apple.png 127.0.0.1 80
+get /ex.html 127.0.0.1 80
